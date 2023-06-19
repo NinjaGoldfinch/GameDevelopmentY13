@@ -1,0 +1,27 @@
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+Library/
+*.csproj
+*.sln
+*.suo
+Temp/
+.vs/
+fmod.log
+fmod_editor.log
+*.orig
+*.orig.meta
+*.userprefs
+obj/
+.gradle/
+*.vsconfig
+ProjectSettings/AndroidLogcatSettings.asset
+UserSettings/
+
+*.csproj.user
+Logs/
+.idea/
