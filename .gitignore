@@ -25,3 +25,4 @@ UserSettings/
 *.csproj.user
 Logs/
 .idea/
+Builds/
