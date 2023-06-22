@@ -244,12 +244,13 @@ GameObject:
   m_Component:
   - component: {fileID: 165488199}
   - component: {fileID: 165488198}
+  - component: {fileID: 165488201}
   - component: {fileID: 165488197}
   - component: {fileID: 165488200}
-  - component: {fileID: 165488201}
+  - component: {fileID: 165488202}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -371,6 +372,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &165488202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165488196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df16dfbe1f73d2478fd224b88f852d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &343312609
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +973,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1282572414}
   - component: {fileID: 1282572415}
-  - component: {fileID: 1282572416}
+  - component: {fileID: 1282572418}
+  - component: {fileID: 1282572417}
   m_Layer: 0
   m_Name: Key
   m_TagString: Untagged
@@ -1035,20 +1049,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!64 &1282572416
-MeshCollider:
+--- !u!114 &1282572417
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282572413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc995f276f0678d40af37c8ef734d7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KeyValue: 1
+--- !u!58 &1282572418
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282572413}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1314307296
 GameObject:
   m_ObjectHideFlags: 0
